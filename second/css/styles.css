@@ -1,0 +1,75 @@
+/** {
+	outline: 1px solid red;
+}*/
+
+html, body {
+	background: rgb(216, 216, 216);
+	height: 1000px;
+	font-family: sans-serif;
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    height: 250px;
+    background: rgb(255,255,255);
+    color: rgb(0,0,0);
+    margin: 30px 50px;
+    padding: 0 30px;
+    overflow: auto;
+}
+
+.text {
+	font-size: 14px;
+	line-height: 20px;
+	min-width: 100px;
+}
+
+.button {
+	width: 90px;
+	font-weight: lighter;
+	text-align: center;
+	color: rgb(255,255,255);
+	font-size: 20px;
+	padding: 10px;
+}	
+
+.red {
+	background: rgb(208, 2, 27);
+	
+}
+
+.blue {
+	background: rgb(74, 144, 226);
+	margin-left: 20px;
+}
+
+.big-box {
+	background: rgb(255,255,255);
+	height: 450px;
+	margin: 30px 50px;
+    padding: 20px 20px;
+    overflow: auto;
+  
+}
+
+.image {
+	background: url("http://cdn.baconipsum.com/theme/images/bacon-ipsum-banner1.jpg");
+	height: 60%;
+	margin-bottom: 30px;
+}
+
+.footer {
+	display: flex;
+	justify-content: flex-end;
+	align-items: flex-end;
+	background: rgb(51, 51, 51);
+	color: rgb(255,255,255);
+	padding: 20px 50px;
+}
+
+.footer__inner {
+	margin-left: 50px;
+	font-weight: lighter;
+}
